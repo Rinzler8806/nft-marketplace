@@ -13,24 +13,24 @@ After a moment you should receive a prompt from your metamask extension or walle
 ```
 The app utilizes Next, Metamask, polygon mumbai test network, Axios, Ethers, and IPFS HTTP RPC API (https://github.com/ipfs/js-ipfs/tree/master/packages/ipfs-http-client#readme). For smart contract testing Hardhat (https://github.com/nomiclabs/hardhat) was utilized.
 
-Check it out at the following link: 
+Check it out at the following link: https://nft-marketplace-rinzler8806.vercel.app/
 
 Home
 
-![](indexnft.png)
+![1](indexnft.png)
 
 Sell Digital Asset
 
-![](create-itemnft.png)
+![2](create-itemnft.png)
 
 My Digital Assets
 
-![](my-assetnft.png)
+![3](my-assetnft.png)
 
 Items Created
 
-![](dashboardnft1.png)
+![4](dashboardnft1.png)
 
 Items Sold
 
-![](dashboardnft2.png)
+![5](dashboardnft2.png)
