@@ -10,27 +10,27 @@ The Metaverse Marketplace allows the user to view NFTs for sale on the market pl
 
 When listing an item for sale please list the asset name, description, and the price in Matic and then choose a jpeg to upload.
 After a moment you should receive a prompt from your metamask extension or wallet asking for authorization of the transaction cost to list your NFT on the marketplace.
-```
+
 The app utilizes Next, Metamask, polygon mumbai test network, Axios, Ethers, and IPFS HTTP RPC API (https://github.com/ipfs/js-ipfs/tree/master/packages/ipfs-http-client#readme). For smart contract testing Hardhat (https://github.com/nomiclabs/hardhat) was utilized.
 
 Check it out at the following link: https://nft-marketplace-rinzler8806.vercel.app/
 
 Home
 
-![1](indexnft.png)
+![](indexnft.png)
 
 Sell Digital Asset
 
-![2](create-itemnft.png)
+![](create-itemnft.png)
 
 My Digital Assets
 
-![3](my-assetnft.png)
+![](my-assetnft.png)
 
 Items Created
 
-![4](dashboardnft1.png)
+![](dashboardnft1.png)
 
 Items Sold
 
-![5](dashboardnft2.png)
+![](dashboardnft2.png)
