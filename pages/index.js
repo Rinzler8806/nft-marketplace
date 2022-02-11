@@ -70,15 +70,17 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {
             nfts.map((nft, i) => (
-              <div key={i} className="border shadow rounded-xl overflow-hidden">
+              <div key={i} className="border shadow rounded-xl overflow-hidden flex flex-1 flex-col justify-between transform transition duration-500 hover:scale-110">
+                <div className="flex flex-1 flex-col justify-between">
                 <img src={nft.image} />
-                <div className="p-4">
-                  <p style={{ height: '64px' }} className="text-2xl font-semibold">{nft.name}</p>
-                <div style={{ height: '70px', overflow: 'hidden' }}>
-                  <p className="text-gray-400">{nft.description}</p>
+                  <div className="p-4">
+                    <p style={{ height: '64px' }} className="text-2xl font-semibold">{nft.name}</p>
+                    <div style={{ height: '70px', overflow: 'hidden' }}>
+                    <p className="text-gray-400">{nft.description}</p>
+                    </div>
                   </div>
                 </div>
-                <div className="p-4 bg-black">
+                <div className="p-4 bg-black content-between">
                   <p className="text-2xl mb-4 font-bold text-white">{nft.price} Matic</p>
                   <button className="w-full bg-pink-500 text-white font-bold py-2 px-12 rounded"
                   onClick={() => buyNft(nft)}>Buy</button>
